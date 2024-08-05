@@ -4,20 +4,19 @@
 */
 
 #include <iostream>
-//#include <conio.h>  // This header is not standard and typically used in Windows
 
+// Standard namespace declaration
 using namespace std;
 
+// Main Function
 int main() {
     // Standard Output Statement
     cout << "Welcome to this C++ Program" << endl;
     cout << "I have corrected all errors for this program." << endl;
 
     // Wait for Output Screen
-    // _getch(); // Removed because conio.h is not available on all systems
-    cin.get(); // Using cin.get() instead to pause the console
+    cin.get(); // This is used to pause the console window
 
     // Main Function return Statement
     return 0;
 }
-
